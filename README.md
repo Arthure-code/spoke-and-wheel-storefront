@@ -11,11 +11,44 @@ Bootstrap. Three views, two components, one service, no store.
 
 ## Screenshots
 
-Coming with the first release.
+![A white page with the Spoke & Wheel logo and Home in the menu bar, a drawn bicycle, the title Home, the line Road, city, trail and electric bikes. Thirteen models in the catalogue this season. and a blue See the bikes button](preview-home.png)
+
+![The Products page, the Products entry of the menu in bold: Our bikes, a tool bar with Sort by Name, Price, Date and a Search by name field, a pager reading Previous, Page 1 of 2, Next, then ten rows of three cells, name on slate, description on light grey, price on slate; City XT 2015 and Coastal Cruiser 2018 in red on light cells](preview.png)
+
+![The page of one bike, reached by clicking it: a link All the bikes, then Fixie Steel 2019, Fixed-gear steel frame., Price: 549.00 $, Fixed price? Yes, Discontinued? No, Modified date: 2019-04-02, with the photo of a grey fixed-gear bike against a black wall on the right](preview-detail.png)
+
+![The Products page on a phone: the tool bar folds on two lines, the pager, then each bike as three stacked cells](preview-mobile.png)
 
 ## How it works
 
-Described with the first release.
+**Three routes, three views.** `router/index.js` maps `/` to `HomeView`,
+`/products` to `ProductsView` and `/products/:id` to `ProductView`, the
+last two loaded on first visit. `App.vue` holds the menu, two
+`<RouterLink>`s, and the `<RouterView>` where the current view renders. The
+history mode gives clean URLs; the entry of the menu that matches the page
+is written in bold through the `router-link-active` class.
+
+**One service for every call.** `services/ProductService.js` is the only
+file that calls `fetch`. `getProducts()` returns the catalogue,
+`getProduct(id)` one bike or `null`, and both throw with the status when
+the answer is not 2xx. Today the catalogue is `public/api/products.json`,
+served with the site; `API_URL` is the one line to change for a live API.
+
+**Fetch on mount, then render.** Each view asks the service in `onMounted`,
+shows a loading line until the answer arrives, the error if there is one,
+and the component otherwise. `ProductView` gets the id from the route as a
+prop (`props: true` on the route) and asks for that bike alone.
+
+**The list is the same component as before, ten a page.** `ProductList`
+still filters, sorts and pages through its computed chain; the view passes
+`perPage` 10. Its `select` event now pushes the product's route instead of
+opening a panel, so the detail has an address of its own that can be
+bookmarked or reloaded.
+
+**The pictures are linked, not stored.** Each product carries an
+`imageUrl` pointing at a public photo on
+[Unsplash](https://unsplash.com/license); no image file lives in the
+repository.
 
 ## Running it
 
