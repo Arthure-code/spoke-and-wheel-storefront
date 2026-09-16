@@ -28,10 +28,26 @@ npm run dev
 the history mode, the server that hosts `dist/` must send `index.html` for
 any path it does not know (`npm run preview` does).
 
+## Tests
+
+```bash
+npm test
+```
+
+Thirty tests, set up the way the [Vue guide](https://vuejs.org/guide/scaling-up/testing.html)
+describes: Vitest configured in `vite.config.js` with `globals: true` and a
+`happy-dom` environment, components mounted with Vue Test Utils, elements
+found by `data-testid`. The service is tested against a stubbed `fetch`;
+the views and the app against a stubbed service and a real router on a
+memory history, one instance per test, as the Vue Test Utils guide on Vue
+Router asks. `npm run coverage` adds the coverage report, which the
+workflow hands to SonarCloud.
+
 ## Stack
 
 Vue 3.5 with `<script setup>`, Vue Router 5, Vite 8, Bootstrap 5.3 for the
-page frame and scoped CSS for the list.
+page frame and scoped CSS for the list. Vitest, Vue Test Utils and
+happy-dom for the tests.
 
 ## Résumé
 
@@ -42,7 +58,8 @@ Le catalogue vient d'un service qui le charge au montage de la vue
 fois, et un clic sur un vélo ouvre sa page, qui redemande ce vélo par son
 identifiant. Un seul fichier appelle `fetch`, `ProductService.js` ; le
 catalogue est aujourd'hui un JSON servi avec le site, une constante à
-changer pour une vraie API.
+changer pour une vraie API. Trente tests Vitest, écrits comme le guide Vue
+le montre, avec un routeur réel en mémoire pour les vues.
 
 ## Licence
 
