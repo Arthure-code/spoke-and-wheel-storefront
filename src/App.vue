@@ -14,6 +14,7 @@ import logo from './assets/logo.svg'
           </RouterLink>
           <ul class="navbar-nav">
             <li class="nav-item"><RouterLink to="/" class="nav-link text-dark">Home</RouterLink></li>
+            <li class="nav-item"><RouterLink to="/products" class="nav-link text-dark" data-testid="nav-products">Products</RouterLink></li>
           </ul>
         </div>
       </nav>
