@@ -1,5 +1,14 @@
 # spoke-and-wheel-storefront
 
+[![Build](https://github.com/Arthure-code/spoke-and-wheel-storefront/actions/workflows/build.yml/badge.svg)](https://github.com/Arthure-code/spoke-and-wheel-storefront/actions/workflows/build.yml)
+[![Quality gate](https://sonarcloud.io/api/project_badges/measure?project=Arthure-code_spoke-and-wheel-storefront&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Arthure-code_spoke-and-wheel-storefront)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=Arthure-code_spoke-and-wheel-storefront&metric=coverage)](https://sonarcloud.io/summary/new_code?id=Arthure-code_spoke-and-wheel-storefront)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=Arthure-code_spoke-and-wheel-storefront&metric=bugs)](https://sonarcloud.io/summary/new_code?id=Arthure-code_spoke-and-wheel-storefront)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=Arthure-code_spoke-and-wheel-storefront&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=Arthure-code_spoke-and-wheel-storefront)
+[![Security rating](https://sonarcloud.io/api/project_badges/measure?project=Arthure-code_spoke-and-wheel-storefront&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=Arthure-code_spoke-and-wheel-storefront)
+[![Code smells](https://sonarcloud.io/api/project_badges/measure?project=Arthure-code_spoke-and-wheel-storefront&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=Arthure-code_spoke-and-wheel-storefront)
+[![Duplicated lines](https://sonarcloud.io/api/project_badges/measure?project=Arthure-code_spoke-and-wheel-storefront&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=Arthure-code_spoke-and-wheel-storefront)
+
 The bike shop as a small multi-page application: a home page, a catalogue
 page and one page per bike, switched by Vue Router without reloading. The
 catalogue comes from a service that fetches it when the page is mounted;
