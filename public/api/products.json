@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "name": "Trek SSL 2017",
+    "price": 999.9,
+    "description": "Racing bike.",
+    "discontinued": false,
+    "fixedPrice": false,
+    "modifiedDate": "2017-06-17",
+    "imageUrl": "https://images.unsplash.com/photo-1532298229144-0ec0c57515c7?auto=format&w=800&q=80"
+  },
+  {
+    "id": 2,
+    "name": "City XT 2015",
+    "price": 659.5,
+    "description": "City bike.",
+    "discontinued": true,
+    "fixedPrice": false,
+    "modifiedDate": "2015-03-01",
+    "imageUrl": "https://images.unsplash.com/photo-1606310241970-4858d5d08f6b?auto=format&w=800&q=80"
+  },
+  {
+    "id": 3,
+    "name": "Cosmic Cobat 2015",
+    "price": 499.9,
+    "description": "Great bike.",
+    "discontinued": false,
+    "fixedPrice": false,
+    "modifiedDate": "2015-05-17",
+    "imageUrl": "https://images.unsplash.com/photo-1728440585076-2589fa9b4aee?auto=format&w=800&q=80"
+  },
+  {
+    "id": 4,
+    "name": "Hero DTB 2016",
+    "price": 759,
+    "description": "Champion bike.",
+    "discontinued": false,
+    "fixedPrice": false,
+    "modifiedDate": "2015-05-19",
+    "imageUrl": "https://images.unsplash.com/photo-1673121414328-52eff37bc6d0?auto=format&w=800&q=80"
+  },
+  {
+    "id": 5,
+    "name": "S-WORKS 2016",
+    "price": 1299.9,
+    "description": "Ultra bike.",
+    "discontinued": false,
+    "fixedPrice": false,
+    "modifiedDate": "2015-06-17",
+    "imageUrl": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&w=800&q=80"
+  },
+  {
+    "id": 6,
+    "name": "Fixie Steel 2019",
+    "price": 549,
+    "description": "Fixed-gear steel frame.",
+    "discontinued": false,
+    "fixedPrice": true,
+    "modifiedDate": "2019-04-02",
+    "imageUrl": "https://images.unsplash.com/photo-1485965120184-e220f721d03e?auto=format&w=800&q=80"
+  },
+  {
+    "id": 7,
+    "name": "Urban Single 2020",
+    "price": 479,
+    "description": "Single-speed commuter.",
+    "discontinued": false,
+    "fixedPrice": false,
+    "modifiedDate": "2020-03-15",
+    "imageUrl": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&w=800&q=80"
+  },
+  {
+    "id": 8,
+    "name": "Coastal Cruiser 2018",
+    "price": 399.5,
+    "description": "Beach cruiser.",
+    "discontinued": true,
+    "fixedPrice": false,
+    "modifiedDate": "2018-07-21",
+    "imageUrl": "https://images.unsplash.com/photo-1505705694340-019e1e335916?auto=format&w=800&q=80"
+  },
+  {
+    "id": 9,
+    "name": "Lakeside Step 2019",
+    "price": 629,
+    "description": "Step-through city bike with a rack.",
+    "discontinued": false,
+    "fixedPrice": false,
+    "modifiedDate": "2019-09-09",
+    "imageUrl": "https://images.unsplash.com/photo-1494375364506-901512970ad4?auto=format&w=800&q=80"
+  },
+  {
+    "id": 10,
+    "name": "Classic Track 2021",
+    "price": 699.9,
+    "description": "Track bike on cream tyres.",
+    "discontinued": false,
+    "fixedPrice": true,
+    "modifiedDate": "2021-02-11",
+    "imageUrl": "https://images.unsplash.com/photo-1616963248328-6b7bea589840?auto=format&w=800&q=80"
+  },
+  {
+    "id": 11,
+    "name": "Gravel GX 2022",
+    "price": 1499,
+    "description": "Gravel bike.",
+    "discontinued": false,
+    "fixedPrice": false,
+    "modifiedDate": "2022-05-05",
+    "imageUrl": "https://images.unsplash.com/photo-1549216963-72c1712c1196?auto=format&w=800&q=80"
+  },
+  {
+    "id": 12,
+    "name": "Fat Volt 2023",
+    "price": 2199,
+    "description": "Electric fat bike.",
+    "discontinued": false,
+    "fixedPrice": false,
+    "modifiedDate": "2023-01-20",
+    "imageUrl": "https://images.unsplash.com/photo-1624243519828-52a0f2c88af3?auto=format&w=800&q=80"
+  },
+  {
+    "id": 13,
+    "name": "Commuter E 2023",
+    "price": 1899,
+    "description": "Electric commuter.",
+    "discontinued": false,
+    "fixedPrice": false,
+    "modifiedDate": "2023-06-30",
+    "imageUrl": "https://images.unsplash.com/photo-1601391721091-4646369e0bb5?auto=format&w=800&q=80"
+  }
+]
